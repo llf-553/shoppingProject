@@ -1,0 +1,16 @@
+{
+  "id": "2000573",
+  "name": "SZ2009",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4186785",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    }
+  ]
+}
