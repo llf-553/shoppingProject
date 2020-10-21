@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link href="../css/cart.css" rel="stylesheet" type="text/css" />
+    <link href="../css/layout.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header-can main">
+            <a href="./index.html" class="a01"><img src="../image/cart/cart_logo.png"></a>
+            <p>聚美优品欢迎您，<a href="./login.html">[ 登录 ]</a><a href="./register.html"> 免费注册</a></p>
+            <h1 id='topic'>您好，请登录！</h1>
+        </div>
+    </div>
+    <!--center-->
+    <div class="center">
+        <div class="center-cen main">
+            <h2>
+                <a href="index.html"><img src="../image/cart/cart None.png"></a>
+            </h2>
+            <div class="group_wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class='primg'>商品图片</th>
+                            <th class='prname'>商品名称</th>
+                            <th class="price">聚美价(元)</th>
+                            <th class="cartNum">数量</th>
+                            <th class="carOption">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--bottom-->
+    <div class="bottom">
+        <div class="bottom-cen main">
+            <p> COPYRIGHT © 2010-2019 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。客服热线：400-123-8888
+                <br/> 京公网安备 11010102001226 |
+                <a href="# ">京ICP111033号</a>|
+                <a href="# ">食品流通许可证 SP1101051110165515(1-1)</a>|
+                <a href="# ">营业执照</a>|
+                <a href="# ">公示制度</a>|
+                <a href="# ">增值电信业务经营许可证</a>
+
+
+            </p>
+            <div class="image ">
+                <a href="# " class="f01 "></a>
+                <a href="# " class="f02 "></a>
+                <a href="# " class="f03 "></a>
+                <a href="# " class="f04 "></a>
+                <a href="# " class="f05 "></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../lib/jquery.min.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/cart.js"></script>
+<script>
+    /*用户登录成功，进入购物车页面，标题显示用户名*/
+    var username = getCookie('uname');
+    console.log(username);
+    if (username) {
+        $('#topic').text(username + '的购物车')
+    }
+</script>
+
+</html>

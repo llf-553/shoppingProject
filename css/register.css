@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+}
+
+.header .a01 {
+    display: block;
+    width: 165px;
+    height: 85px;
+    float: left;
+}
+
+.header .header-right {
+    float: right;
+    height: 100px;
+    margin-right: 40px;
+}
+
+.header .header-right a {
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.header .header-right .a01 {
+    width: 110px;
+    height: 31px;
+    background: url('../image/register/header_corn_new_v2.png') no-repeat;
+    background-position: 0 0;
+}
+
+.header .header-right .a02 {
+    width: 170px;
+    height: 31px;
+    background: url('../image/register/gild.png') no-repeat;
+    margin: 45px 35px 0 32px;
+}
+
+.header .header-right .a03 {
+    width: 110px;
+    height: 31px;
+    background: url('../image/register/header_corn_new_v2.png') no-repeat;
+    background-position: 0 -65px;
+}
+
+.footer {
+    height: 260px;
+    margin-bottom: 103px;
+    font-size: 14px;
+}
+
+.footer-center {
+    height: 260px;
+    width: 890px;
+    margin-left: 160px;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 12px;
+    padding-bottom: 13px;
+    color: #000000;
+    line-height: 47px;
+}
+
+.footer p a {
+    color: #000000;
+}
+
+.footer .image {
+    margin-top: 10px;
+}
+
+.footer .image a {
+    display: inline-block;
+    margin-right: 13px;
+    border-radius: 5px;
+}
+
+.footer .image .f01 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -168px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .image .f02 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -218px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .image .f03 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -269px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .image .f04 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -321px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .image .f05 {
+    background: url("../image/bottom/bz.jpg") no-repeat;
+    width: 55px;
+    height: 50px;
+}
+
+.center {
+    height: 818px;
+}
+
+.center-left {
+    width: 515px;
+    height: 818px;
+    float: left;
+}
+
+.center-left img {
+    width: 515px;
+    height: 466px;
+}
+
+.center-right {
+    float: right;
+    width: 455px;
+    height: 602px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .075);
+    background: rgba(255, 255, 255, .85);
+    position: relative;
+}
+
+.show-left {
+    position: absolute;
+    left: -9px;
+    background: url(../image/login/shadow.png) no-repeat;
+    width: 8px;
+    height: 100%;
+}
+
+.show-right {
+    position: absolute;
+    right: -9px;
+    background: url(../image/login/shadow.png) no-repeat;
+    width: 8px;
+    height: 100%;
+}
+
+.center-right .cn {
+    width: 390px;
+    height: 525px;
+    padding: 25px 45px 0 45px;
+    background: rgba(255, 255, 255, .85);
+}
+
+.cn h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #e31256;
+    font-family: "Microsoft YaHei", "微软雅黑", "黑体";
+    float: left;
+}
+
+.cn .p01 {
+    color: #969696;
+    float: right;
+    line-height: 25px;
+}
+
+.cn .p01 a {
+    color: #e31256;
+}
+
+form input {
+    margin-top: 35px;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    font-size: 14px;
+    outline: 0;
+    line-height: 1.5;
+    width: 373px;
+    height: 48px;
+    padding-left: 10px;
+}
+
+form button {
+    margin-top: 35px;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    font-size: 14px;
+    outline: 0;
+    line-height: 1.5;
+    width: 373px;
+    height: 48px;
+    padding-left: 10px;
+}
+
+.ctop {
+    width: 345px;
+    height: 30px;
+}
+
+form input .vcode .code {
+    width: 196px;
+    height: 48px;
+}
+
+.vcode {
+    position: relative;
+    height: 100px;
+}
+
+form #yz {
+    background: url('../image/register/1.png') -10px -15px;
+    width: 80px;
+    font-style: italic;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    bottom: 23px;
+    right: 80px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#yzBtn {
+    position: absolute;
+    bottom: 23px;
+    right: 40px;
+    color: #e31256;
+}
+
+#btn {
+    background-color: #f8296d;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+form .a01 {
+    color: #e31256;
+    padding-right: 75px;
+    padding-left: 13px;
+}
+
+form .a02 {
+    color: #e31256;
+}
+
+form p {
+    margin-top: 5px;
+    color: #969696;
+}
+
+#pum {
+    margin-top: 35px;
+}
+
+#code {
+    margin-top: 30px;
+}
+
+#repassword {
+    margin-top: 25px;
+}
+
+form p {
+    display: none;
+}

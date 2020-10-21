@@ -1,0 +1,314 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+}
+
+.header .a01 {
+    display: block;
+    width: 165px;
+    height: 85px;
+    float: left;
+}
+
+.header .header-right {
+    float: right;
+    height: 100px;
+    margin-right: 40px;
+}
+
+.header .header-right a {
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.header .header-right .a01 {
+    width: 110px;
+    height: 31px;
+    background: url("../image/register/header_corn_new_v2.png") no-repeat;
+    background-position: 0 0;
+}
+
+.header .header-right .a02 {
+    width: 170px;
+    height: 31px;
+    background: url("../image/register/gild.png") no-repeat;
+    margin: 45px 35px 0 32px;
+}
+
+.header .header-right .a03 {
+    width: 110px;
+    height: 31px;
+    background: url("../image/register/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -65px;
+}
+
+.footer {
+    height: 260px;
+    margin-bottom: 103px;
+    font-size: 14px;
+}
+
+.footer .footer-center {
+    height: 260px;
+    width: 890px;
+    margin-left: 160px;
+    text-align: center;
+}
+
+.footer .footer-center p {
+    padding-top: 12px;
+    padding-bottom: 13px;
+    color: #000000;
+    line-height: 47px;
+}
+
+.footer .footer-center p a {
+    color: #000000;
+}
+
+.footer .footer-center .image {
+    margin-top: 10px;
+}
+
+.footer .footer-center .image a {
+    display: inline-block;
+    margin-right: 13px;
+    border-radius: 5px;
+}
+
+.footer .footer-center .image .f01 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -168px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .footer-center .image .f02 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -218px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .footer-center .image .f03 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -269px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .footer-center .image .f04 {
+    background: url("../image/bottom/header_corn_new_v2.png") no-repeat;
+    background-position: 0 -321px;
+    width: 128px;
+    height: 50px;
+}
+
+.footer .footer-center .image .f05 {
+    background: url("../image/bottom/bz.jpg") no-repeat;
+    width: 55px;
+    height: 50px;
+}
+
+.center {
+    height: 818px;
+}
+
+.center .center-cen {
+    height: 818px;
+    position: relative;
+}
+
+.center .center-cen .center-left {
+    background: url("../image/login/loginPic.jpg") no-repeat;
+    width: 970px;
+    height: 360px;
+    z-index: -1;
+    position: absolute;
+    top: 40px;
+}
+
+.center .center-cen .center-right {
+    float: right;
+    width: 455px;
+    height: 602px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.075);
+    background: rgba(255, 255, 255, 0.85);
+    margin-top: 50px;
+    position: relative;
+}
+
+.center .center-cen .center-right .show-left {
+    position: absolute;
+    left: -9px;
+    background: url(../image/login/shadow.png) no-repeat;
+    width: 8px;
+    height: 100%;
+}
+
+.center .center-cen .center-right .show-right {
+    position: absolute;
+    right: -9px;
+    background: url(../image/login/shadow.png) no-repeat;
+    width: 8px;
+    height: 100%;
+}
+
+.center .center-cen .center-right .cn {
+    width: 390px;
+    height: 525px;
+    padding: 25px 45px 0 45px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.center .center-cen .center-right .cn .ctop {
+    width: 345px;
+    height: 30px;
+}
+
+.center .center-cen .center-right .cn .ctop h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #e31256;
+    font-family: "Microsoft YaHei", "微软雅黑", "黑体";
+    float: left;
+}
+
+.center .center-cen .center-right .cn .ctop .p01 {
+    color: #969696;
+    float: right;
+    line-height: 25px;
+}
+
+.center .center-cen .center-right .cn .ctop .p01 a {
+    color: #e31256;
+}
+
+.center .center-cen .center-right .cn form input {
+    margin-top: 35px;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    font-size: 14px;
+    outline: 0;
+    line-height: 1.5;
+    width: 373px;
+    height: 48px;
+    padding-left: 10px;
+}
+
+.center .center-cen .center-right .cn form p {
+    margin-top: 5px;
+    color: #969696;
+    display: none;
+}
+
+.center .center-cen .center-right .cn form .vcode {
+    position: relative;
+    height: 100px;
+}
+
+.center .center-cen .center-right .cn form .vcode .code {
+    width: 196px;
+    height: 48px;
+}
+
+.center .center-cen .center-right .cn form .vcode #yz {
+    background: url("../image/register/1.png") -10px -15px;
+    width: 80px;
+    font-style: italic;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    bottom: 23px;
+    right: 80px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.center .center-cen .center-right .cn form .vcode #yzBtn {
+    position: absolute;
+    bottom: 23px;
+    right: 40px;
+    color: #e31256;
+}
+
+.center .center-cen .center-right .cn form #btn {
+    background-color: #f8296d;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.center .center-cen .center-right .cn form h4 {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.center .center-cen .center-right .cn form h2 {
+    margin: 18px 0 0 0;
+}
+
+.center .center-cen .center-right .cn form h2 a {
+    width: 43px;
+    height: 43px;
+    display: block;
+    margin-right: 20px;
+    float: left;
+}
+
+.center .center-cen .center-right .cn form h2 :nth-child(1) {
+    background: url("../image/login/icon_light.jpg") no-repeat;
+    background-position: 0 0;
+}
+
+.center .center-cen .center-right .cn form h2 :nth-child(2) {
+    background: url("../image/login/icon_light.jpg") no-repeat;
+    background-position: -58px 0;
+}
+
+.center .center-cen .center-right .cn form h2 :nth-child(3) {
+    background: url("../image/login/icon_light.jpg") no-repeat;
+    background-position: -115px 0;
+}
+
+.center .center-cen .center-right .cn form h2 :nth-child(4) {
+    background: url("../image/login/icon_light.jpg") no-repeat;
+    background-position: -169px 0;
+}
+
+.center .center-cen .center-right .cn form h2 :nth-child(5) {
+    background: url("../image/login/icon_light.jpg") no-repeat;
+    background-position: 0 -53px;
+}
+
+.center .center-cen .center-right .cn form h2 :nth-child(6) {
+    background: url("../image/login/icon_light.jpg") no-repeat;
+    background-position: -58px -53px;
+}
+
+
+/*# sourceMappingURL=login.css.map */
