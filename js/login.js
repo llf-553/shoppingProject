@@ -35,7 +35,7 @@ window.onload = function() {
                 console.log($("#pnum").val())
                 console.log($("#password").val())
                 $.ajax({
-                    url: '../interface/login.php',
+                    url: '../login.php',
                     type: 'post',
                     data: { username: $("#pnum").val(), password: $("#password").val() },
                     success: function(res) {

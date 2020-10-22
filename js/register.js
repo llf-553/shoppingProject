@@ -50,7 +50,7 @@ pnum.oninput = function() {
                                 console.log($("#pnum").val())
                                 console.log($("#password").val())
                                 $.ajax({
-                                    url: '../interface/register.php',
+                                    url: '../register.php',
                                     type: 'post',
                                     data: { username: $("#pnum").val(), password: $("#password").val() },
                                     success: function(res) {

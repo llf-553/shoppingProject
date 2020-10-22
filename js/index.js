@@ -398,7 +398,7 @@ function delayTime() {
     var minutes = Math.floor(afterMinutes / 60);
     var seconds = afterMinutes - minutes * 60;
     var arr = [day, hours, minutes, seconds];
-    console.log('相差' + day + '天' + hours + '小时' + minutes + '分' + seconds + '秒')
+    // console.log('相差' + day + '天' + hours + '小时' + minutes + '分' + seconds + '秒')
     var spanArr = document.getElementsByClassName('time');
     // console.log(spanArr);
     for (var i = 0; i < spanArr.length; i++) {

@@ -2,11 +2,10 @@
 require('./_connect.php');
 
 //书写sql语句
-$sql = "CREATE TABLE users (
-			 `id` int(11) NOT NULL AUTO_INCREMENT,
-			username VARCHAR(300) NOT NULL,
-			`password`  VARCHAR(300) NOT NULL,
-			
+$sql = "CREATE TABLE `users` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   `username` VARCHAR(300) NOT NULL,
+   `password`  VARCHAR(300) NOT NULL			
 )";
 $result = mysqli_query($conn,$sql);
 if($result){
